@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Yekan Bold2X";
+  src: url("../../assets/fonts/Yekan2XBold.ttf");
+}
+
+.result-text {
+  width: 65%;
+  font-size: 15px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.emoji-text {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.result-title {
+  font-size: 28px;
+  font-weight: 900;
+  color: #fff;
+  position: relative;
+  font-family: "Yekan Bold2X";
+}
+
+.result-title::before {
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: .5px;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+}
+
+.result-header_text {
+  font-size: 14px;
+  color: #fff;
+  padding: 5px 0;
+}
+
+.result-btn {
+  border: none;
+  outline: none;
+  background-color: #D44536;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem 1rem;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-family: "Yekan Bakh";
+}
+
+.lampshade-btn {
+  background-color: #657285 !important;
+}
+
+.aromathephy-btn {
+  background-color: #072975 !important;
+}
